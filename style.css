@@ -4,7 +4,7 @@ body{
 
 header{
     background-color: #F5F5F5 ;
-    width: 1440px;
+    
     height: 134px;
 }
 
@@ -46,7 +46,7 @@ li{
 .welcome{
     display: flex;
     height: 532px;
-    width: 1440px;
+    
     justify-content: center;
     align-items: center;
     background-color: #EDF2EC;
@@ -71,12 +71,21 @@ li{
 }
 
 h1{
-   font-size: 45;
+   font-size: 30pt;
    color: gray;
 }
 
-.colortext{
+h2{
+    font-size: 25pt;
+    
+}
+
+.colortexthgreen{
     color:forestgreen ;
+}
+
+.colortexthred{
+    color: #E06733;
 }
 
 
@@ -88,11 +97,39 @@ h1{
     box-shadow:   3px 5px rgba(0,0,0, 0.50);
     padding: 10px;
     margin-top: 50px;
-
 }
 
 p{
     font-size: 20;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity: 0.5;
+}
+
+.about{
+    display: flex;
+    
+    height: 666px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutsection{
+    display: flex;
+    width: 1227px;
+    height: 479px;
+    align-items: end;
+}
+
+
+.aboutus{
+    width: 605px;
+    height: 350px;
+    padding-right: 70px;
+
+}
+
+.houseplant1{
+   width: 464px;
+   height: 479px;
+   padding-left: 100px;
 }

@@ -134,3 +134,55 @@ p{
    padding-left: 100px;
 }
 
+.service{
+    display: flex;
+    background-color: #EDF2EC;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 1300px;
+}
+
+.service_content{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.buttonservice{
+    width:158px;
+    height: 44px;
+    border-color: #E06733;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.imgservice{
+    float:left; 
+    border: 3px ;
+    border-color: black;
+    padding: 7px; 
+    margin: 5px 20px 5px 20px; 
+    border-radius: 10px;
+}
+
+.buttonCont{
+    padding-right: 400px;
+    color:forestgreen
+}
+
+.serv_cont{
+    width: 1222px;
+    height: 955px;
+}
+
+.prices{
+    height: 560px;
+}
+
+.call_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

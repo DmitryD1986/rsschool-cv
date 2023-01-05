@@ -86,9 +86,15 @@
     </service>
     
     <prices class="prices">
-        <price_conteiner>
-            <prices></prices>
-
+        <price_conteiner class="price_cont">
+            <prices>
+                <form action="handler.php">
+                    <p><h2>Prices</h2></p>
+                    <p class="radiobuton"><input name="dzen" type="radio" value="Basics"> Basics</p>
+                    <p class="radiobuton"><input name="dzen" type="radio" value="Standart"> Standart</p>
+                    <p class="radiobuton"><input name="dzen" type="radio" value="Pro care"> Pro care</p>
+                </form>
+            </prices>
         </price_conteiner>
         <callus_cont class="call_cont">
             <h2>    Our best <span class="colortexthgreen" >gardeners</span> are <br>ready to help you        </h2>
@@ -96,10 +102,13 @@
             <br>
             <img src="leafs.png" alt="leafs_logo" width="152px" height="175px">
         </callus_cont>
-
-
     </prices>
-    <contacts>
+    <contacts class="contacts">
+        <img src="contact_woman 1.png" alt="contact_woman" width="400px" height="500px">
+        <div class="contus"><h2 class="colortexthgreen">Contact us</h2> </div>
+        <button class="accordion">Sity</button>
+        
+          
 
     </contacts>
     <footer>

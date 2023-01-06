@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     min-width: 1440px;
 }
@@ -234,4 +238,29 @@ p{
 
 .contus{
     align-self: flex-start;
+}
+
+.contentfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlist{
+    display: inline;
+
+}
+
+.socialicon{
+    margin-right: 50px;
+}
+
+.sociallist{
+    display: inline;
+    margin-right: 300px;
+}
+
+.colorblack{
+    opacity: 1;
+   
 }

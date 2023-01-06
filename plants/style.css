@@ -1,6 +1,10 @@
+body{
+    min-width: 1440px;
+}
+
 header{
     background-color: #F5F5F5 ;
-    width: 1440px;
+    
     height: 134px;
 }
 
@@ -37,4 +41,197 @@ li{
     display: flex;
     padding: 30px;
     
+}
+
+.welcome{
+    display: flex;
+    height: 532px;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF2EC;
+}
+
+.cont_welcome_section{
+    display: flex;
+    height: 410px;
+    width: 1222px;
+    justify-content: space-around;
+    
+}
+
+.leafs_img{
+    width: 423px;
+    height: 410px;
+}
+
+.cont_welcome{
+    width: 549px;
+    height: 340px;
+}
+
+h1{
+   font-size: 30pt;
+   color: gray;
+}
+
+h2{
+    font-size: 25pt;
+    
+}
+
+.colortexthgreen{
+    color:forestgreen ;
+}
+
+.colortexthred{
+    color: #E06733;
+}
+
+
+.button{
+    width:158px;
+    height: 44px;
+    border-color: #E06733;
+    border-radius: 10px;
+    box-shadow:   3px 5px rgba(0,0,0, 0.50);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 20;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+
+.about{
+    display: flex;
+    
+    height: 666px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutsection{
+    display: flex;
+    width: 1227px;
+    height: 479px;
+    align-items: end;
+}
+
+
+.aboutus{
+    width: 605px;
+    height: 350px;
+    padding-right: 70px;
+
+}
+
+.houseplant1{
+   width: 464px;
+   height: 479px;
+   padding-left: 100px;
+}
+
+.service{
+    display: flex;
+    background-color: #EDF2EC;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 1300px;
+}
+
+.service_content{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.buttonservice{
+    width:158px;
+    height: 44px;
+    border-color: #E06733;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.imgservice{
+    float:left; 
+    border: 3px ;
+    border-color: black;
+    padding: 7px; 
+    margin: 5px 20px 5px 20px; 
+    border-radius: 10px;
+}
+
+.buttonCont{
+    padding-right: 400px;
+    color:forestgreen
+}
+
+.serv_cont{
+    width: 1222px;
+    height: 955px;
+}
+
+.prices{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 560px;
+}
+
+.call_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price_cont{
+    display: flex;
+
+}
+
+.radiobuton{
+    border: 2px grey;
+    background-color: #EDF2EC;
+    border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 20px;
+
+}
+
+.contacts{
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: #EDF2EC;
+}
+
+.accordion {
+    align-self: center;
+    background-color: #D6E7D2;
+    color: gray;
+    cursor: pointer;
+    padding: 15px 50px;
+    width: 450px;
+    height: 50px;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.contus{
+    align-self: flex-start;
 }
